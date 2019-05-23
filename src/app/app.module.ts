@@ -5,11 +5,17 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { FormsModule } from '@angular/forms';
-import { FlexLayoutModule } from '@angular/flex-layout'
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { DepartmentFormComponent } from './department-form/department-form.component';
+import { ProductFormComponent } from './product-form/product-form.component';
+import { ProductTableComponent } from './product-table/product-table.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DepartmentFormComponent,
+    ProductFormComponent,
+    ProductTableComponent
   ],
   imports: [
     BrowserModule,
